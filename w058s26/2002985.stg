@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Airport/ndb.ac -57.528333 -25.28 109.89 180
+OBJECT_SHARED Models/Airport/localizer.xml -57.523333 -25.256944 89.05 282.47
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml -57.6481133 -25.2718026 52 151.73
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac -57.6691743 -25.3407338 50 92.09
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac -57.6674637 -25.3347275 50 72.58
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac -57.6627669 -25.2769823 51 52.48
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac -57.6545364 -25.2724312 52 267.14
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac -57.6518949 -25.27135 52 186.51
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac -57.6418015 -25.272909 51.99 291.69

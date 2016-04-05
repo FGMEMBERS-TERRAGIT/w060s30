@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+ <path>SBPA_Terminal.ac</path>
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>16000</max-m>
+ </animation>
+    <animation>
+        <object-name>Bulb</object-name>
+        <object-name>None</object-name>
+        <enable-hot type="bool">false</enable-hot>
+    </animation>
+    <animation>
+        <type>alpha-test</type>
+        <alpha-factor>0.01</alpha-factor>
+    </animation>
+    <animation>
+        <type>select</type>
+        <object-name>Bulb</object-name>
+        <object-name>None</object-name>
+        <condition><greater-than>
+            <property>/sim/time/sun-angle-rad</property>
+            <value>1.57</value>
+            </greater-than>
+        </condition>
+    </animation>
+    <animation>
+        <type>timed</type>
+        <object-name>Bulb</object-name>
+        <object-name>None</object-name>
+        <use-personality type="bool">true</use-personality>
+        <branch-duration-sec>
+        <random>
+            <min>43200.0</min>
+            <max>43200.0</max>
+        </random>
+        </branch-duration-sec>
+        <branch-duration-sec>
+        <random>
+            <min>43200.0</min>
+            <max>43200.0</max>
+        </random>
+        </branch-duration-sec>
+        </animation>         
+<model>
+<path>Models/Airport/Jetway/glass.xml</path>
+<offsets>
+<x-m>49.0</x-m>
+<y-m>10.0</y-m>
+<z-m>0.0</z-m> 
+    <heading-deg>343.7</heading-deg>
+</offsets>
+</model>
+<model>
+<path>Models/Airport/Jetway/glass.xml</path>
+<offsets>
+<x-m>123.0</x-m>
+<y-m>10.0</y-m>
+<z-m>-0.20</z-m> 
+    <heading-deg>343.7</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/glass.xml</path>
+<offsets>
+<x-m>206.0</x-m>
+<y-m>10.0</y-m>
+<z-m>0.0</z-m> 
+    <heading-deg>343.7</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/glass.xml</path>
+<offsets>
+<x-m>12.50</x-m>
+<y-m>19.0</y-m>
+<z-m>0.0</z-m> 
+    <heading-deg>261</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/glass.xml</path>
+<offsets>
+<x-m>12.0</x-m>
+<y-m>61.0</y-m>
+<z-m>0.20</z-m> 
+    <heading-deg>228</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/jetway-ba.xml</path>
+<offsets>
+<x-m>42.50</x-m>
+<y-m>11.0</y-m>
+<z-m>0.15</z-m> 
+    <heading-deg>249.2</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/jetway-ba.xml</path>
+<offsets>
+<x-m>116.0</x-m>
+<y-m>11.0</y-m>
+<z-m>0.0</z-m> 
+    <heading-deg>249.2</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/jetway-ba.xml</path>
+<offsets>
+<x-m>199.0</x-m>
+<y-m>11.0</y-m>
+<z-m>0.0</z-m> 
+    <heading-deg>249.2</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/jetway-ba.xml</path>
+<offsets>
+<x-m>12.50</x-m>
+<y-m>23.50</y-m>
+<z-m>0.40</z-m> 
+    <heading-deg>161.1</heading-deg>
+</offsets>
+</model>
+ <model>
+<path>Models/Airport/Jetway/jetway-ba.xml</path>
+<offsets>
+<x-m>15.0</x-m>
+<y-m>64.50</y-m>
+<z-m>0.45</z-m> 
+    <heading-deg>132</heading-deg>
+</offsets>
+</model>
+</PropertyList>
