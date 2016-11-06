@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+       
+<path>SBCX_Hangar.ac</path>
+	<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+	<max-m>1000</max-m>
+    </animation>
+	<model>
+<path>Models/Commercial/eolic_roof_fan.xml</path>
+<offsets>
+<x-m>1.67</x-m>
+<y-m>10.01</y-m>
+<z-m>7.0</z-m>
+</offsets>
+</model> 
+
+<model>
+<path>Models/Commercial/eolic_roof_fan.xml</path>
+<offsets>
+<x-m>11.50</x-m>
+<y-m>10.01</y-m>
+<z-m>7.0</z-m>
+</offsets>
+</model> 
+<model>
+<path>Models/Commercial/eolic_roof_fan.xml</path>
+<offsets>
+<x-m>21.80</x-m>
+<y-m>10.01</y-m>
+<z-m>7.0</z-m>
+</offsets>
+</model> 
+</PropertyList>
